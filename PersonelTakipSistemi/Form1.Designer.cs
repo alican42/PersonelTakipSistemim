@@ -29,22 +29,33 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(144, 71);
+            label1.Location = new Point(307, 136);
             label1.Name = "label1";
             label1.Size = new Size(67, 20);
             label1.TabIndex = 1;
             label1.Text = "ali akkan";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(453, 117);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label1);
             Name = "Form1";
             Text = " Test Project Screen";
@@ -54,5 +65,6 @@
 
         #endregion
         private Label label1;
+        private Button button1;
     }
 }
