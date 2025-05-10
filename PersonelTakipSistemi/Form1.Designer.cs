@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             label1 = new Label();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.Location = new Point(355, 241);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(64, 36);
+            label1.Location = new Point(144, 71);
             label1.Name = "label1";
             label1.Size = new Size(67, 20);
             label1.TabIndex = 1;
@@ -56,7 +46,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
-            Controls.Add(button1);
             Name = "Form1";
             Text = " Test Project Screen";
             ResumeLayout(false);
@@ -64,8 +53,6 @@
         }
 
         #endregion
-
-        private Button button1;
         private Label label1;
     }
 }
